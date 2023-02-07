@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "CursedTimerULiL";
+  src: url("/font/CursedTimerULiL.woff") format("woff");
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
+    font-family: 'Verdana', sans-serif;                
+    
+    font-weight: bold;                
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: auto;
+    font-family: CursedTimerULiL;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    
+}
+
+.score {
+    font-size: 90px;
+    color: #F94F6D;
+    background: #080001;
+    width: 120px;
+    margin: 20px;
+}
+
+button {
+    color: #9AABD8;
+    background: none;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+}
